@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le mie App</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,serif;background:#1a1a2e;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.hub{max-width:400px;width:100%;text-align:center}
+h1{color:#f0c040;font-size:24px;margin-bottom:6px}
+.sub{color:#888;font-size:12px;margin-bottom:40px;letter-spacing:1px;text-transform:uppercase}
+.app-card{display:block;background:#2c2c2c;border-radius:14px;padding:20px 24px;margin-bottom:14px;text-decoration:none;display:flex;align-items:center;gap:16px;transition:background .2s}
+.app-card:hover{background:#3a3a3a}
+.app-icon{font-size:36px;flex-shrink:0}
+.app-info{text-align:left}
+.app-name{color:#fff;font-size:17px;font-weight:bold;margin-bottom:4px}
+.app-desc{color:#888;font-size:12px}
+.app-url{color:#f0c040;font-size:11px;margin-top:4px;font-family:monospace}
+</style>
+</head>
+<body>
+<div class="hub">
+  <h1>🏡 Le mie App</h1>
+  <div class="sub">by Giorgio</div>
+  <a href="/fcc/" class="app-card">
+    <span class="app-icon">💰</span>
+    <div class="app-info">
+      <div class="app-name">Family Control Center</div>
+      <div class="app-desc">Budget, spese, scadenze e lista della spesa</div>
+      <div class="app-url">giorgiolucciola-lang.github.io/fcc</div>
+    </div>
+  </a>
+  <a href="/quiz/" class="app-card">
+    <span class="app-icon">🎓</span>
+    <div class="app-info">
+      <div class="app-name">English Practice</div>
+      <div class="app-desc">Esercizi di pronuncia e grammatica inglese</div>
+      <div class="app-url">giorgiolucciola-lang.github.io/quiz</div>
+    </div>
+  </a>
+</div>
+</body>
+</html>
